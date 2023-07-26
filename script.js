@@ -1,5 +1,6 @@
 
-function escrendoLetra() {
+function escrevendoLetra() {
+
 
     function ativaLetra(elemento) {
         const arrTexto = elemento.innerHTML.split('');
@@ -25,4 +26,8 @@ const ativaMenu = document.querySelector('.fa-bars');
 
 ativaMenu.addEventListener('click', () => {
     ativaMenu.classList.toggle('fa-x')
+
 })
+
+escrevendoLetra()
+
